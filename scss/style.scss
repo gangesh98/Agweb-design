@@ -1,0 +1,53 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.hr-header1{
+	width: 100%;
+	margin-top: 0px;
+    margin-bottom: 0px; 
+    
+}
+.hr-header2{
+	width: 100%;
+	margin-top: 0px;
+    margin-bottom: 0px; 
+}
+.header-text{
+	p{
+		margin-top: 10px;
+       
+	}
+	
+
+}
+.hr-header1 {
+   border: 2px solid red;
+}
+.header-menu-list{
+	ul{
+    margin-top: 10px;
+	display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    }
+}
+.header-menu-icon {
+    font-size: 40px;
+    cursor: pointer;
+    color: black;
+}
+.sidenav {
+    text-align: center;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    z-index: 999;
+}
