@@ -3,11 +3,19 @@
 
 <head>
 	<title>Agweb</title>
+	 <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
 	<!-- Bootstrap-css -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 	<!-- font-Awsome -->
 	 <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Lobster&display=swap" rel="stylesheet">
+  
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
+  <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet">
+  <link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet"> -->
 	<!-- Agweb-css -->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
@@ -15,86 +23,123 @@
 
   	<div class="container-fluid full-width-cont">
   		<section class="header-top">
-	  		<div class="row align-items-center d-sm-none d-md-block ">
-		  		<marquee class="header-text"><p>02:46:33 PM >>> Corn Soybeans Live Cattle Wheat</p></marquee>
-		  		<hr class="hr-header1">
+	  		<div class="row align-middle ">
+
+	  			
+		  		<marquee class="header-text d-none d-sm-block d-md-block ">
+		  		
+		  			<ul>
+		  				<li> 02:46:33 <span> </span>PM</li>
+		  				<li> >>>  </li>
+		  				<li>Corn<span>415^2 -2^0 </span></li>
+		  				<li>Soybeans<span>2^0 </span></li>
+		  				<li>Live Cattle <span>2^0 </span></li>
+		  				<li>Wheat<span>2^0 </span></li>
+		  				<li>ICE-Cotton No.2<span>2^0 </span></li>
+		  				<li>milk<span>2^0 </span></li>
+		  				<li>Feeder Cattle<span>2^0 </span></li>
+		  				<li>Lean Hogs<span>2^0 </span></li>
+		  				<li>Gold<span>2^0 </span></li>
+		  				<li>Silver<span>2^0 </span></li>
+		  				<li>Crude Oil<span>2^0 </span></li>
+		  				<li>Mini Dow Futures<span>2^0 </span></li>
+
+		  			</ul>
+		  			</marquee>
+		  		<hr class="hr-header1 d-none d-sm-block  d-none d-lg-block ">
 	  		</div>	
-	  		<div class="row align-items-center header-menu-list d-sm-none d-md-block">
+
+	  		<div class="row align-items-center text-capitalize  header-menu-list d-none d-sm-block d-md-block">
 	  			<ul>
 	  				<li> Trending: </li>
-	  				<li><a>2019 Farm Jounaral Seed Guide </a></li>
-	  				<li> Today Agday</li>
-	  				<li>Weather Forecast</li>
-	  				<li>FJ fulse poll</li>
-	  				<li>Podcasts</li>
-	  				<li>Video</li>
-	  				
-
+	  				<li><a href="https://www.agweb.com/farm-journal/issues/farm-journal-summer-2019-seed-guide" aria-label="2019 Farm Journal Seed Guide"> 2019 Farm Journal Seed Guide</a></li>
+	  				<li><a href="http://farmjournaltv.gallery.video/agday" aria-label="Today's AgDay" target="_blank"> Today's AgDay</a></li>
+	  				<li ><a href="https://www.agweb.com/weather" aria-label="Weather Forecast" target="_blank"> Weather Forecast</a></li>
+	  				<li> <a href="https://www.agweb.com/farmjournal/farm-journal-pulse" aria-label="FJ Pulse Poll" target="_blank"> FJ Pulse Poll</a></li>
+	  				<li> <a href="https://agritalk.goodbarber.com/podcast-network" aria-label="Podcasts" target="_blank"> Podcasts</a></li>
+	  				<li> <a href="http://farmjournaltv.gallery.video/ott" aria-label="Video" target="_blank"> Video</a></li>
+	  				<li> <a href="https://discussions.agweb.com/" aria-label="Discussions" target="_blank"> Discussions</a></li>
 	  			</ul>
-		  		
 		  		<hr class="hr-header2">
 	  		</div>
-	  		<div class="row">
-			    <div class="col-lg-4 col-sm-4 col-md-4 "> 
-               <!--  <div class="pos-f-t">
-				  <div class="collapse" id="navbarToggleExternalContent">
-				    <div class="bg-dark p-4">
-				      <h4 class="text-white">Collapsed content</h4>
-				      <span class="text-muted">Toggleable via the navbar brand.</span>
+
+	  		<div class="row ">
+			    <div class=" col col-lg-2  text-center col-sm-4 col-md-4 header-position  align-middle"> 
+               
+					<span class="header-menu-icon" onclick="openNav()">&#9776; <i class="fas fa-search search-bar"></i></span>
+
+				    <div id="mySidenav" class="sidenav ">
+				      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;
+             
+              </a>
+				      <i class="far fa-search"></i>
+				      <a href="#">Design System</a>
+				      <hr>
+				      <a href="#">Themes</a>
+				      <hr>
+				      <a href="#">Shop</a>
+				      <hr>
+				      <a href="#">Tutorial</a>
 				    </div>
-				  </div>
-				  <nav class="navbar navbar-dark bg-dark">
-				    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-				      <span class="navbar-toggler-icon"></span>
-				    </button>
-
-				  </nav>
-				 </div> -->
-
-				  <span class="header-menu-icon" onclick="openNav()">&#9776;</span>
-
-    <div id="mySidenav" class="sidenav ">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <i class="far fa-search"></i>
-      <a href="#">Design System</a>
-      <hr>
-      <a href="#">Themes</a>
-      <hr>
-      <a href="#">Shop</a>
-      <hr>
-      <a href="#">Tutorial</a>
-      
-
-    </div>
-
-
-
 
 			     </div>
-			    <div class="col col-lg-4 col-sm-4 col-md-4"> 
-			    <img src="img/_4.png"> </div>
-			    <div class="col col-lg-4 col-sm-4 col-md-4">  </div>
+			    <div class="col  col-lg-6 col-sm-4 col-md-4 text-center agweb-logo"> 
+			     <img src="img/Agweb.png">
+           </div>
+			    <div class=" col  col-lg-4 col-sm-4 col-md-4  text-center cloud-img img-fluid"> 
+            <img src="img/cloud.png "><span>94  &#176;</span>
+            <p class="text-uppercase">New Delhi,Delhi</p>
+           </div>
 			      
 			  
 			</div>  
-			<hr>
-			<div class="row justify-content-center">
-		    <div class="col-lg-auto">News</div>
-		    <div class="col-lg-auto">Market</div>
-		    <div class="col-lg-auto">Weather</div>
-		    <div class="col-lg-auto">Crops</div>
-		    <div class="col-lg-auto">Business</div>
-		    <div class="col-lg-auto">Machinery</div>
-		    <div class="col-lg-auto">Livestok</div>
-		    <div class="col-lg-auto">Technology</div>
+			<hr class="d-none d-sm-block d-md-block">
+			<div class="row justify-content-center navigation  ">
+		    <div class="col-lg-auto d-none d-md-block nav-color1  ">News</div>
+		    <div class="col-lg-auto d-none d-md-block nav-color2 ">Market</div>
+		    <div class="col-lg-auto d-none d-md-block nav-color3 ">Weather</div>
+		    <div class="col-lg-auto d-none d-md-block nav-color4 ">Crops</div>
+        <div class="col-lg-auto d-none d-md-block nav-color5 ">Business</div>
+		    <div class="col-lg-auto d-none d-md-block nav-color5 ">Business</div>
+		    <div class="col-lg-auto d-none d-md-block nav-color6 ">Machinery</div>
+		    <div class="col-lg-auto d-none d-md-block nav-color7 ">Livestok</div>
+		    <div class="col-lg-auto d-none d-md-block nav-color8 ">Technology</div>
 		  </div>  
-		  <hr>
+		  <hr class="d-none d-sm-block d-md-block" >
 
 
-	  	</section>	
+	   </section>
+	   <section>
+	   	<main>
+	   		<div class="row">
+             <div class="col col-lg-12">
+              <h3> Top Stories</h3>
+             </div> 
+			    <div class="col col-lg-12 col-sm-12 d-flex">
 
+			      
+			      <div class="col col-lg-3 main-cont-img">
+			      	<img src="img/webimage-AC.png">
+			      </div>
+			       <div class="col col-lg-4 main-cont-text">
+			       
+			       	<p>LIVESTOCK <span>14:53PM Jul 29, 2019 </span></p>
 
-
+                <h1>4-Her Sells Pig for $10,000, Donates Money to Grieving Diemel Family</h1>
+                <p>The generosity and compassion of an 11-year-old 4-H member raised more than $10,000 in support of the Nick and Justin Diemel family....</p>
+                
+			       </div>
+			        <div class="col col-lg-3">
+                <h5>LIVESTOCK</h5>
+                <h3>
+                  4-Her Sells Pig for $10,000, Donates Money to Grieving Diemel Family</h3>
+                
+              </div>
+			    </div>
+	   		</div>
+	   	</main>
+	   	
+	   </section>	
 	</div>
       
 
@@ -107,6 +152,8 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+	
 	 <script type="text/javascript" src="js/agweb.js"></script>
 </body>
 </html>
